@@ -21,6 +21,7 @@ No mínimo 3 páginas de conteúdo:
 
 - [Sobre](#primeiro-trabalho-frontend-essencial)
 - [Tecnologias utilizadas](#-tecnologias-utilizadas)
+- [Como executar o projeto](#-como-executar-o-projeto)
 - [Construído com](#%EF%B8%8F-construído-com)
 - [Autores](#%EF%B8%8F-autores)
 
@@ -34,6 +35,12 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 - CSS
 
 ---  
+
+## ⌨ Como executar o projeto
+
+Gostaria de acessar e testar a aplicação ? basta clicar [aqui](https://kifel.github.io/Primeiro-Trabalho-FrontEnd-Essencial/)
+
+--- 
 
 ## 🛠️ Construído com
 
