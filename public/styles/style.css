@@ -59,9 +59,16 @@ body #navigation .wrapper .logo {
 }
 
 body #navigation .wrapper .logo p {
-    margin: 2rem;
+  margin: 2rem;
 }
 
+body #navigation .wrapper .logo:hover {
+  color: #ddd;
+}
+
+body #navigation .wrapper .logo:hover span {
+    color: rgb(19, 81, 250);
+}
 
 body #navigation .wrapper .logo span {
   color: blue;

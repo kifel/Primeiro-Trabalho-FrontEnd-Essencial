@@ -1,0 +1,18 @@
+/*=== MAIN ===*/
+
+body main #home .content ul {
+  text-align: center;
+  padding-top: 25rem;
+  margin: 2.5rem;
+  list-style: none;
+}
+
+body main #home .content a {
+  font-size: 10rem;
+  color: blue;
+  text-decoration: none;
+}
+
+body main #home .content a:hover {
+  color: rgb(19, 62, 252);
+}
