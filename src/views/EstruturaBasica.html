@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="../../public/styles/reset.css" />
-    <link rel="stylesheet" href="../../public/styles/style.css">
+    <!-- <link rel="stylesheet" href="../../public/styles/reset.css" /> -->
+    <link rel="stylesheet" href="../../public/styles/style.css" />
+    <link rel="stylesheet" href="../../public/styles/EstruturaBasica.css" />
 
     <title>Estrutura Básica Html</title>
   </head>
@@ -28,5 +29,45 @@
         </div>
       </nav>
     </header>
+    <main>
+      <div class="explicacao">
+        <h1>Tags HTML</h1>
+        <p>Os servidores leem o código HTML para entender e renderizar o conteúdo. Ele lerá o HTML de cima para baixo, assim como você está lendo este guia. 
+
+          Você pode usar quantas tags quiser para formatar o conteúdo. No entanto, existem algumas tags e regras HTML essenciais que você precisará seguir. 
+          
+          Uma tag HTML deve conter três partes:
+          
+          Uma tag de abertura — isso começará com um símbolo < >
+          Conteúdo — as instruções curtas sobre como exibir o elemento na página
+          Uma tag de fechamento — isso terminará com um símbolo </ >
+          No entanto, algumas tags HTML podem ser abertas. Isso significa que a tag HTML não precisa ser fechada com um </ >. Você normalmente usará tags não fechadas para metadados ou quebras de linha. </p>
+        <h1>H1 a H6</h1>
+        <p>
+          Elementos de cabeçalho são implementados em seis níveis, H1 é o mais
+          importante e H6 é o de menor importância. Um elemento de cabeçalho
+          descreve brevemente o tópico da seção em que ele está. As informações
+          de cabeçalho podem ser usadas por agentes de usuário, por exemplo,
+          para construir uma tabela de conteúdos para um documento
+          automaticamente.
+        </p>
+        <h1>title: O titulo do documento.</h1>
+        <p>O elemento HTML title define o título do documento, mostrado na barra de título de um navegador ou na aba da página. Pode conter somente texto e quaisquer marcações contidas no texto não são interpretadas.</p>
+        <h1>body:</h1>
+        <p>O elemento body do HTML representa o conteúdo de um documento HTML. è permitido apenas um body por documento.</p>
+        <h1>p: O elemento Parágrafo</h1>
+        <p>O elemento HTML p representa um parágrafo. Em mídias visuais, parágrafos são representados como blocos indentados de texto com a primeira letra avançada e separados por linhas em branco. Já em HTML, parágrafos são usados para agrupar conteúdos relacionados de qualquer tipo, como imagens e campos de um formulário.</p>
+      </div>
+      <div class="content">
+      </div>
+    </main>
+
+    <a id="backToTopButton" href="#navigation">
+      <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="20" r="20" fill="#000FFF"/>
+          <path d="M20 27V13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M13 20L20 13L27 20" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>        
+  </a>
   </body>
 </html>

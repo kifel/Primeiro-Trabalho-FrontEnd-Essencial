@@ -1,0 +1,38 @@
+/* Making the html and body 100% of the viewport. */
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-size: 1.6rem;
+
+  overflow: overlay;
+  text-align: center;
+
+  background-color: white;
+}
+
+body main {
+  font-size: 2rem;
+}
+
+body main p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+body main .content {
+  margin-top: 5rem;
+}
+
+body main .explicacao {
+  padding: 5rem;
+}
+
+#backToTopButton {
+  position: fixed;
+  bottom: 1rem;
+  right: 2.5rem;
+}
