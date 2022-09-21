@@ -67,7 +67,7 @@ body #navigation .wrapper .logo:hover {
 }
 
 body #navigation .wrapper .logo:hover span {
-    color: rgb(19, 81, 250);
+  color: rgb(19, 81, 250);
 }
 
 body #navigation .wrapper .logo span {
@@ -86,4 +86,22 @@ body #navigation .menu ul li a {
   color: white;
   cursor: pointer;
   padding-left: 2rem;
+}
+
+@media screen and (max-width: 500px) {
+  body #navigation {
+    width: 100%;
+    display: inline-block;
+    height: 12rem;
+  }
+
+  body #navigation .wrapper .logo p {
+    display: flex;
+    justify-content: center;
+  }
+
+  body #navigation .menu ul {
+    display: flex;
+    justify-content: center;
+  }
 }
