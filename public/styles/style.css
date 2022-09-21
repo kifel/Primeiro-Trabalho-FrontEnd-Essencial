@@ -37,6 +37,8 @@ body {
   padding-inline: 2.4rem;
 }
 
+/*=== HEADER ===*/
+
 body #navigation {
   display: flex;
   justify-content: space-between;
