@@ -78,6 +78,7 @@ body #navigation .menu ul {
   margin: 2.5rem;
   display: flex;
   list-style: none;
+  padding-right: 5rem;
 }
 
 body #navigation .menu ul li a {
@@ -101,6 +102,7 @@ body #navigation .menu ul li a {
   }
 
   body #navigation .menu ul {
+    padding-right: 0rem;
     display: flex;
     justify-content: center;
   }
