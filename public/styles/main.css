@@ -1,15 +1,32 @@
 /*=== MAIN ===*/
 
-body main #home .content ul {
-  text-align: center;
-  padding-top: 25rem;
-  margin: 2.5rem;
-  list-style: none;
+html,
+body {
+  width: 100%;
+  height: 100%;
 }
 
-body main #home .content a {
-  font-size: 10rem;
+body {
+  overflow: overlay;
+  text-align: center;
+}
+
+body main {
+  font-size: 2rem;
+  margin-top: 30rem;
+}
+
+body main #home .content ul {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 27.6rem;
+}
+
+body main #home .content ul a {
   color: blue;
+  font-size: 3rem;
   text-decoration: none;
 }
 
